@@ -24,9 +24,7 @@
 
 ****
 
-# ZASentinel white paper
-## Thank you for your interest in ZASentinel
-
+## 《ZASentinel white paper》
 ZASentinel helps organizations improve information security by providing a better and simpler way to protect access to private network resources and applications.
 
 The information contained in this document is intended to provide customers and potential customers with transparency and confidence about the security situation, practices and processes of ZASentinel. Although this document represents the security of ZASentinel when it was last updated, ensuring information security is a process of continuous improvement, and we will not stop the evaluation and support.
