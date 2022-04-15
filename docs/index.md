@@ -88,7 +88,7 @@ From the customer's point of view, our product architecture provides additional 
 
 This section provides a high-level overview of the main components that make up the ZASentinel architecture and how they interact. The architecture of ZASentinel is in our document, and we strongly recommend that you read this article in order to have a more comprehensive understanding of the security foundation of ZASentinel.
 
-![en-1](./images/en-1.png)
+![en-1](https://raw.githubusercontent.com/ztalab/ZASentinel/main/images/en-1.png)
 
 ZASentinel protects access to customers' remote network resources. ZASentinel consists of four main components, which together ensure that only authenticated users can access the resources they have access to. After ZASentinel is fully configured, the end result is that authorized users can connect to any resource without knowing the underlying network configuration or even which remote network the resource resides on. The four main components are:
 
@@ -101,7 +101,7 @@ Client and server components are located on the equipment and infrastructure con
 
 The following diagram illustrates how various components exchange information in a secure way, so as to connect from the client to a specific resource on a remote network:
 
-<img src="./images/en-2.png" alt="image-20220402145306066" style="zoom: 60%;" />
+<img src="https://raw.githubusercontent.com/ztalab/ZASentinel/main/images/en-2.png" alt="image-20220402145306066" style="zoom: 60%;" />
 
 1. The server registers itself with the geographically nearest relay. 
 
@@ -112,7 +112,7 @@ The relay does not receive any information about the server except the randomly 
 Allow lists to be specific to each component. The client's allow list corresponds to the content that users are allowed to access, and the server's list covers the resources that administrators have configured. Two allow lists must be signed by the same controller.
 
 3. The client is authenticated by a third-party identity provider, providing additional in-depth protection. 
-<img src="./images/en-3.png" alt="image-20220402145100815" style="zoom:60%;" />
+<img src="https://raw.githubusercontent.com/ztalab/ZASentinel/main/images/en-3.png" alt="image-20220402145100815" style="zoom:60%;" />
 
 4. The client initiates a TLS connection with a single end-to-end certificate lock to the requested server. 
 
